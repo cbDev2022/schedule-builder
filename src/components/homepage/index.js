@@ -1,11 +1,12 @@
 import React from "react";
 
 function Homepage() {
+
     return (
-        <section>
-            <h1 id="homepage">This is the homepage</h1>
-        </section>
+      <div>
+        
+      </div>
     );
-}
+  }
 
 export default Homepage;
