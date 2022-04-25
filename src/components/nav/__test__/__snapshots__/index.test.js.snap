@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component matches snapshot 1`] = `
+<DocumentFragment>
+  <header>
+    <h2>
+      <a
+        href="/"
+      >
+        Schedule Builder
+      </a>
+    </h2>
+    <nav>
+      <a
+        href="#homepage"
+      />
+    </nav>
+  </header>
+</DocumentFragment>
+`;
