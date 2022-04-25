@@ -8,9 +8,9 @@ function App() {
   return (
     <div>
       <Nav></Nav>
-      <Account></Account>
       <main>
         <Main></Main>
+        <Account></Account>
       </main>
     </div>
   );

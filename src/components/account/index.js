@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import Modal from '../modal';
 
 function AccountNumber() {
     const [formState, setFormState] = useState({ account: '' });
     const { account } = formState;
+    const [openModal, setOpenModal] = useState(false);
     
     // Sync State/Handle Change
     function handleChange(e) {
@@ -19,7 +21,19 @@ function AccountNumber() {
                 <div>
                     <input placeholder="Enter Account Number" type="text" defaultValue={ account } onChange={handleChange} name="account"/>
                 </div>
-                <button type="submit">Submit</button>
+
+                <button 
+                className="openModalBtn" 
+                onClick={() => {
+                    setOpenModal(true);
+                }} 
+                type="submit">+ Create Schedule
+                </button>
+
+                    <div>
+                        {openModal && <Modal closeModal={setOpenModal}/>}
+                    </div>
+
             </form>
         </section>
     );
