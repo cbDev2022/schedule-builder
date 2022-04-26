@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      id="homepage"
+    >
+      This is the homepage
+    </h1>
+  </section>
+</DocumentFragment>
+`;
